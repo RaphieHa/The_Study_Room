@@ -166,34 +166,62 @@
   </section>
 
   <!-- Pricing -->
-  <section id="pricing" class="py-16">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      <h2 class="text-2xl sm:text-3xl font-extrabold mb-6">Simple pricing</h2>
-      <div class="grid md:grid-cols-2 gap-6 md:divide-x md:divide-slate-200 dark:md:divide-slate-700">
-        <div class="card p-6 ring-soft bg-white/80 dark:bg-slate-900/60">
-          <div class="text-sm font-semibold">Standard</div>
-          <div class="mt-2 text-3xl font-black">€10<span class="text-base font-semibold text-slate-500">/hr</span></div>
-          <ul class="mt-4 text-sm space-y-2 text-slate-600 dark:text-slate-300">
-            <li>1:1 online</li>
-            <li>Focused on GCSE & Years 7–11</li>
-            <li>Practice questions + feedback</li>
-          </ul>
-          <a href="#book" class="mt-5 inline-block rounded-xl bg-blue-600 text-white px-4 py-2 font-semibold">Book now</a>
+<section id="pricing" class="py-16">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <h2 class="text-2xl sm:text-3xl font-extrabold mb-6">Simple pricing</h2>
+
+    <div class="grid md:grid-cols-2 gap-6 md:divide-x md:divide-slate-200 dark:md:divide-slate-700">
+
+      <!-- Standard -->
+      <div class="relative card p-6 ring-2 ring-red-500 bg-white/80 dark:bg-slate-900/60">
+
+        <!-- Winter sale badge -->
+        <div class="absolute -top-3 -right-3 rounded-full bg-red-600 text-white text-xs font-bold px-3 py-1 shadow">
+          Winter sale
         </div>
-        <div class="card p-6 ring-soft bg-white/80 dark:bg-slate-900/60 border-2 border-blue-600">
-          <div class="text-sm font-semibold">Custom Schedule</div>
-          <div class="mt-2 text-3xl font-black">COMING SOON: Custom</div>
-          <ul class="mt-4 text-sm space-y-2 text-slate-600 dark:text-slate-300">
-            <li>Flexible timetables</li>
-            <li>Pairs/small groups</li>
-            <li>Ask for a tailored quote</li>
-          </ul>
-          <a href="#book" class="mt-5 inline-block rounded-xl bg-blue-600 text-white px-4 py-2 font-semibold">Book or ask</a>
+
+        <div class="text-sm font-semibold">Standard</div>
+
+        <div class="mt-2 flex items-end gap-2">
+          <span class="text-lg font-semibold text-slate-400 line-through">€15</span>
+          <span class="text-3xl font-black">€10</span>
+          <span class="text-base font-semibold text-slate-500">/hr</span>
         </div>
+
+        <ul class="mt-4 text-sm space-y-2 text-slate-600 dark:text-slate-300">
+          <li>1:1 online</li>
+          <li>Focused on GCSE & Years 7–11</li>
+          <li>Practice questions + feedback</li>
+        </ul>
+
+        <a href="#book" class="mt-5 inline-block rounded-xl bg-blue-600 text-white px-4 py-2 font-semibold">
+          Book now
+        </a>
       </div>
-      <p class="mt-4 text-xs text-slate-500">Book directly below. No messages required.</p>
+
+      <!-- Custom -->
+      <div class="card p-6 ring-soft bg-white/80 dark:bg-slate-900/60 border-2 border-blue-600">
+        <div class="text-sm font-semibold">Custom Schedule</div>
+        <div class="mt-2 text-3xl font-black">COMING SOON: Custom</div>
+
+        <ul class="mt-4 text-sm space-y-2 text-slate-600 dark:text-slate-300">
+          <li>Flexible timetables</li>
+          <li>Pairs/small groups</li>
+          <li>Ask for a tailored quote</li>
+        </ul>
+
+        <a href="#book" class="mt-5 inline-block rounded-xl bg-blue-600 text-white px-4 py-2 font-semibold">
+          Book or ask
+        </a>
+      </div>
+
     </div>
-  </section>
+
+    <p class="mt-4 text-xs text-slate-500">
+      Book directly below. No messages required.
+    </p>
+  </div>
+</section>
 
   <!-- Booking -->
   <section id="book" class="py-16 md:py-24">
